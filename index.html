@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Evelin & Mateus | Nosso Grande Dia</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CONVITE DE ABERTURA -->
+    <section id="convite" class="convite">
+
+        <div class="convite-conteudo">
+
+            <p class="pequeno">UM CONVITE ESPECIAL</p>
+
+            <h1>Evelin <span>&</span> Mateus</h1>
+
+            <p class="data">24 • 04 • 2027</p>
+
+            <p class="frase">
+                "Um novo capítulo começa aqui..."
+            </p>
+
+            <button onclick="abrirConvite()">
+                💌 Abrir convite
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- SITE PRINCIPAL -->
+    <main id="site" class="site">
+
+
+        <!-- INÍCIO -->
+        <section id="inicio" class="hero">
+
+            <div class="hero-texto">
+
+                <p>Com muito amor, convidamos você para</p>
+
+                <h2>Evelin & Mateus</h2>
+
+                <p>
+                    celebrar conosco o início de uma nova
+                    história.
+                </p>
+
+                <div class="contador">
+
+                    <div>
+                        <strong id="dias">00</strong>
+                        <span>Dias</span>
+                    </div>
+
+                    <div>
+                        <strong id="horas">00</strong>
+                        <span>Horas</span>
+                    </div>
+
+                    <div>
+                        <strong id="minutos">00</strong>
+                        <span>Minutos</span>
+                    </div>
+
+                    <div>
+                        <strong id="segundos">00</strong>
+                        <span>Segundos</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- NOSSA HISTÓRIA -->
+        <section id="historia">
+
+            <p class="titulo-pequeno">UMA HISTÓRIA DE AMOR</p>
+
+            <h2>Nossa História ❤️</h2>
+
+            <p>
+                Duas pessoas, dois caminhos e uma história
+                que escolheu unir os dois.
+            </p>
+
+            <!-- Depois podemos colocar a história real aqui -->
+
+        </section>
+
+
+        <!-- GALERIA -->
+        <section id="galeria">
+
+            <p class="titulo-pequeno">NOSSOS MOMENTOS</p>
+
+            <h2>Evelin & Mateus</h2>
+
+            <div class="galeria">
+
+                <div class="foto">
+                    <img src="foto1.jpeg" alt="Evelin e Mateus">
+                </div>
+
+                <div class="foto">
+                    <img src="foto2.jpeg" alt="Evelin e Mateus">
+                </div>
+
+                <div class="foto">
+                    <img src="foto3.jpeg" alt="Evelin e Mateus">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- O GRANDE DIA -->
+        <section id="casamento">
+
+            <p class="titulo-pequeno">O GRANDE DIA</p>
+
+            <h2>24 de Abril de 2027 💍</h2>
+
+            <div class="informacoes">
+
+                <div>
+                    <span>📅</span>
+                    <h3>Data</h3>
+                    <p>24 de abril de 2027</p>
+                </div>
+
+                <div>
+                    <span>🕓</span>
+                    <h3>Horário</h3>
+                    <p>16:00</p>
+                </div>
+
+                <div>
+                    <span>🌿</span>
+                    <h3>Formato</h3>
+                    <p>Ao ar livre</p>
+                </div>
+
+                <div>
+                    <span>📍</span>
+                    <h3>Local</h3>
+                    <p>
+                        Associação de Seara<br>
+                        Jacarezinho - Paraná
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LOCALIZAÇÃO -->
+        <section id="localizacao">
+
+            <h2>Onde será? 📍</h2>
+
+            <p>
+                Associação de Seara<br>
+                Jacarezinho, Paraná
+            </p>
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=Associação+de+Seara+Jacarezinho+Paraná"
+                target="_blank"
+                class="botao">
+                📍 Ver localização
+            </a>
+
+        </section>
+
+
+        <!-- CONFIRMAÇÃO -->
+        <section id="presenca">
+
+            <p class="titulo-pequeno">ESPERAMOS POR VOCÊ</p>
+
+            <h2>Confirme sua presença 💌</h2>
+
+            <form>
+
+                <input
+                    type="text"
+                    placeholder="Seu nome"
+                    required
+                >
+
+                <input
+                    type="number"
+                    placeholder="Quantidade de acompanhantes"
+                    min="0"
+                >
+
+                <select required>
+
+                    <option value="">
+                        Você irá comparecer?
+                    </option>
+
+                    <option value="sim">
+                        Sim, estarei presente ❤️
+                    </option>
+
+                    <option value="nao">
+                        Infelizmente não poderei ir
+                    </option>
+
+                </select>
+
+                <textarea
+                    placeholder="Deixe uma mensagem para os noivos..."
+                ></textarea>
+
+                <button type="submit">
+                    Confirmar presença
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- MENSAGEM FINAL -->
+        <section id="final">
+
+            <h2>Evelin & Mateus</h2>
+
+            <p>
+                Esperamos você para celebrar conosco
+                esse momento tão especial.
+            </p>
+
+            <p class="data-final">
+                24 • 04 • 2027
+            </p>
+
+        </section>
+
+
+        <footer>
+
+            <p>
+                Evelin & Mateus ❤️
+            </p>
+
+            <p>
+                Nosso Grande Dia
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
