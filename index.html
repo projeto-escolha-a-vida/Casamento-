@@ -169,5 +169,20 @@
   </div>
 
   <script src="script.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const opening = document.getElementById('opening');
+  const openInvite = document.getElementById('openInvite');
+  if (openInvite && opening) {
+    openInvite.addEventListener('click', function () {
+      opening.classList.add('hidden');
+      document.body.classList.remove('locked');
+      window.scrollTo(0, 0);
+    });
+  }
+});
+</script>
+
 </body>
 </html>
